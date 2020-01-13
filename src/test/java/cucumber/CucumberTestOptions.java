@@ -5,7 +5,7 @@ import cucumber.api.junit.Cucumber;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
-import utils.BaseTests;
+import util.BaseTests;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(

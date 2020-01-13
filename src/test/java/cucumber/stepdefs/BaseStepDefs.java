@@ -6,15 +6,12 @@ import cucumber.api.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import pages.Page;
-import utils.BaseTests;
+import util.BaseTests;
 
 import java.util.concurrent.TimeUnit;
 
-import static net.bytebuddy.matcher.ElementMatchers.is;
 
 public class BaseStepDefs {
 

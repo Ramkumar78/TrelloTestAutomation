@@ -6,7 +6,6 @@ import org.junit.BeforeClass;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -14,13 +13,10 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Parameters;
 import pages.Page;
-import utils.Environments;
 
-import java.awt.font.OpenType;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
-import java.sql.SQLOutput;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTests {
