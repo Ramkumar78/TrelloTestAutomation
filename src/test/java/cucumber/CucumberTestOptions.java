@@ -13,11 +13,16 @@ import utils.BaseTests;
 		glue = {"cucumber.stepdefs"},
 		features = {"src/test/java/cucumber/features"})
 
+
 public class CucumberTestOptions {
 
 	@BeforeClass
 	public static void setUp(){
-		BaseTests.launchApplication();
+		try {
+			BaseTests.launchApplication("chrome");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 	@AfterClass

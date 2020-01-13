@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df105eb3-1418-4ffb-b444-b1f7840e012a" name="Default Changelist" comment="" />
+    <list default="true" id="df105eb3-1418-4ffb-b444-b1f7840e012a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrelloTestAutomation.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +17,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\ROQ\TrelloTestAutomation\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +35,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1WDxvVe5mtBma6J8uWC9VI1HJVt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,7 +50,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="utils" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cucumber.stepdefs" />
       <recent name="utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -47,10 +65,29 @@
       <recent name="cucumber" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ROQ\TrelloTestAutomation\src\test\java\cucumber\features" />
       <recent name="D:\ROQ\TrelloTestAutomation\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CucumberTestOptions">
+    <configuration name="Feature: Login (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/features/Login.feature" />
+      <option name="GLUE" value="cucumber.stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="TrelloTestAutomation" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/Login.feature" />
@@ -87,33 +124,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RudimentryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CucumberTestOptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TrelloTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="cucumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cucumber.stepdefs" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.stepdefs.RudimentryTest" />
+      <option name="PACKAGE_NAME" value="cucumber" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.CucumberTestOptions" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RudimentryTest.openyoutube" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TrelloTestAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cucumber.stepdefs" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.stepdefs.RudimentryTest" />
-      <option name="METHOD_NAME" value="openyoutube" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RudimentryTest.sample2" />
+        <item itemvalue="JUnit.CucumberTestOptions" />
+        <item itemvalue="Cucumber java.Feature: Login (1)" />
         <item itemvalue="Cucumber java.Feature: Login" />
+        <item itemvalue="JUnit.RudimentryTest.sample2" />
         <item itemvalue="Cucumber java.Scenario: Log into Trello" />
-        <item itemvalue="JUnit.RudimentryTest.openyoutube" />
-        <item itemvalue="JUnit.RudimentryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,26 +211,26 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2691" y="275" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578761261440" />
-    <state width="1493" height="215" key="GridCell.Tab.0.bottom" timestamp="1578868576855">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="339" key="GridCell.Tab.0.bottom" timestamp="1578898960064">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="215" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1578868576855" />
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578755154571" />
-    <state width="1493" height="215" key="GridCell.Tab.0.center" timestamp="1578868576854">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="339" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578898960064" />
+    <state width="1877" height="339" key="GridCell.Tab.0.center" timestamp="1578898960064">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="215" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1578868576854" />
-    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578755154571" />
-    <state width="1493" height="215" key="GridCell.Tab.0.left" timestamp="1578868576854">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="339" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578898960064" />
+    <state width="1877" height="339" key="GridCell.Tab.0.left" timestamp="1578898960064">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="215" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1578868576854" />
-    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578755154570" />
-    <state width="1493" height="215" key="GridCell.Tab.0.right" timestamp="1578868576854">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="339" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578898960064" />
+    <state width="1877" height="339" key="GridCell.Tab.0.right" timestamp="1578898960064">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="215" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1578868576854" />
-    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578755154571" />
+    <state width="1877" height="339" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578898960064" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1578753967107">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -226,10 +247,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578753967107" />
-    <state x="392" y="141" key="Maven.ArtifactSearchDialog" timestamp="1578867446323">
+    <state x="392" y="141" key="Maven.ArtifactSearchDialog" timestamp="1578897040091">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="392" y="141" key="Maven.ArtifactSearchDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1578867446323" />
+    <state x="392" y="141" key="Maven.ArtifactSearchDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1578897040091" />
     <state x="2410" y="178" key="Maven.ArtifactSearchDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578755219723" />
     <state x="2383" y="166" key="SettingsEditor" timestamp="1578748972127">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -253,22 +274,22 @@
     </state>
     <state x="169" y="243" width="1069" height="830" key="dock-window-2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1578868601113" />
     <state x="169" y="243" width="1069" height="830" maximized="true" key="dock-window-2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578868900881" />
-    <state x="2632" y="451" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1578761399550">
+    <state x="2632" y="451" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1578898442484">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2632" y="451" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578761399550" />
+    <state x="2632" y="451" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578898442484" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/base/sample.java</url>
-          <line>37</line>
+          <url>file://$PROJECT_DIR$/src/test/java/cucumber/stepdefs/RudimentryTest.java</url>
+          <line>29</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/cucumber/stepdefs/BaseStepDefs.java</url>
-          <line>16</line>
+          <line>28</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
